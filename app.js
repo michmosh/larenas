@@ -8,7 +8,7 @@ const routes = require('./routes/routes');
 const db = require('./database/db');
 
 app.use(cors({
-    origin:["http://localhost:3000"]
+    origin:["*"]
 }));
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
