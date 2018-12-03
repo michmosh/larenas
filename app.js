@@ -15,7 +15,7 @@ app.use(bodyParser.json());
 app.use(express.static(path.join(__dirname,'public')));
 app.use('/api' ,routes);
 app.use('/', function(req, res){ 
-    res.sendFile(path.join(__dirname + '/public/build/index.html'));
+    res.sendFile(path.join(__dirname + '/public/index.html'));
 });
 
 app.listen(port, () => console.log(`Example app listening on port ${port}!`))
