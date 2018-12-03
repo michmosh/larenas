@@ -8,7 +8,7 @@ const routes = require('./routes/routes');
 const db = require('./database/db');
 
 app.use(cors({
-    origin:["*"]
+    origin:["http://ec2-54-201-109-240.us-west-2.compute.amazonaws.com:4400"]
 }));
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
