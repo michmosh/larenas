@@ -1,0 +1,19 @@
+ul.images-array {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+ul.images-array li{
+    max-width:25%;
+    padding-left:0;
+}
+
+ul.images-array li img.images-array{
+    max-width:100%;
+    height:6rem;
+}
+
+:local(.img){
+    max-width: 100%;
+}

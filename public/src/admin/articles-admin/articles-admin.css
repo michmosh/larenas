@@ -1,0 +1,48 @@
+.articles-container{
+    padding:1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.articles-container button{
+    border-radius: 5px;
+}
+.admin-item{
+    padding:1rem;
+    box-shadow: silver 1px 1px 1px 1px;
+    margin-bottom: 1rem;
+    max-width:45%;
+}
+
+.button.danger{
+    background-color: coral;
+}
+
+.button.success{
+    background-color: dodgerblue;
+}
+.button.edit{
+    background-color: yellowgreen;
+}
+
+input.admin-input{
+    height:1.3rem;
+    padding:1rem;
+    border-radius:5px;
+    width:100%;
+    box-sizing: border-box;
+    margin-bottom: 1rem;
+}
+
+textarea.admin-input{
+    margin-bottom: 1rem;
+    border-radius:5px;
+    width:100%;
+    min-height: 10rem;
+}
+
+@media only screen and (max-width:768px){
+    .admin-item{
+        max-width:75%;
+    }
+}

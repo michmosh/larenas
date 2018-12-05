@@ -1,6 +1,7 @@
 const Config = {
     appName:"LARENA`S",
     apiUrl:"http://ec2-54-201-109-240.us-west-2.compute.amazonaws.com:4400/api",
+    devApiUrl :' http://localhost:4400/api' ,
     imagePath: "http://ec2-54-201-109-240.us-west-2.compute.amazonaws.com:4400/images" ,
     whatsappContact : "+527531746229" ,
     whatsappTextMessage:"Hello i want some inforamtion about rooms, availability and prices please " , 
