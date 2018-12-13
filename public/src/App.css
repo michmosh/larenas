@@ -1,0 +1,22 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+body {
+  font-family:"Ralwey", "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  background-color: #F1F0FF;
+}
+.app-container{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 1fr auto;
+  height: 100vh;
+}
+
+.flex{
+  display: flex;
+}
+
+
+
+

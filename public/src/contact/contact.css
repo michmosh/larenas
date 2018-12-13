@@ -1,0 +1,39 @@
+.form-container{
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-items: center;
+    padding: 3rem;
+}
+
+.form-container form{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+}
+ 
+.form-container form input , .form-container form textarea{
+    border-radius: 5px;
+    height:2rem;
+    padding:0.3rem;
+    margin:0.5rem;
+    border: 1px solid #8a2be275;
+}
+
+.button{
+    padding:1rem;
+    color:#F1F0FF;
+    border:0;
+}
+
+@media only screen and (max-width:1024px){
+    .form-container form{
+        width:70%;
+    }
+} 
+
+@media only screen and (max-width:430px){
+    .form-container form{
+        width:100%;
+    }
+}
