@@ -6,9 +6,9 @@ const mLabUrl = 'mongodb://@ds123834.mlab.com:23834/hotel'
 mongoose.connect(mLabUrl,{ 
     useNewUrlParser: true ,
     auth:{
-        user : 'michmosh',
-        password: 'ceim5193'
-    }
+            user : 'michmosh',
+            password: 'ceim5193'
+        }
     }
    );
 const db = mongoose.connection;

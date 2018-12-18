@@ -3,6 +3,7 @@ const router    = express.Router();
 
 router
     .use('/articles' , require('./articles'))
+    .use('/articles:id' , require('./articles'))
     .use('/rooms' , require('./rooms'))
     .use('/rooms/:id*' , require('./rooms'))
     .use('/resturante' , require('./resturante'))
