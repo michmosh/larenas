@@ -63,14 +63,14 @@ router
         let id = req.params.id
         Article.find({_id :id },(err , article)=>{
             if(err) return res.send(500);
-            res.json(article[0]);
+            return res.json(article[0]);
         })
     })
     .get('/', (req , res)=>{
         let param = req.query;
         Article.find(param,(err , articles)=>{
             if(err) return res.send(500);
-            res.json(articles);
+            return res.json(articles);
         })
     })
 
